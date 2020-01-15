@@ -35,5 +35,10 @@ module.exports = {
     "react/prefer-stateless-function": [0, { "ignorePureComponents": false }],
     "react/state-in-constructor": 0,
     "react/no-unused-state": 0,
+    "react/sort-comp": 0,
+    "react/static-property-placement": ["off", "property assignment", {
+      childContextTypes: "static getter",
+
+    }]
   },
 };
